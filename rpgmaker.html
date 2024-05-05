@@ -1,0 +1,530 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><title>RPG Maker XP 1.02 - Leia Me</title>
+<style type="text/css" media="screen">
+
+/*
+=============================
+RPG Maker XP
+CSS - Documentação
+=============================
+Por Desert Eagle
+Baseado no AS para WordPress
+=============================
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #cee3e8 url(FAQ/images/bg.gif) repeat-x fixed;
+	font-size: 78%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, sans-serif;
+	color: #333;
+	text-align: center;
+}
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 1.2em 0;
+}
+ol, ul {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 1.2em 0 1.2em 2em;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 1.2em 0;
+	font-family: "Lucida Grande", Tahoma, Arial, sans-serif;
+	color: #3883bb;
+}
+h1, h2 {
+	font-size: 1.4em;
+}
+h3 {
+	font-size: 1.3em;
+}
+h4 {
+	font-size: 1.2em;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #3366CC;
+}
+a:visited {
+	color: #3366CC;
+}
+a:hover, a:active {
+	color: #6699CC;
+}
+input, textarea, select {
+	border: 1px solid #6AC4FF;
+	background-color: #F2F9FF;
+	color: #333;
+	font-size: 1em;
+	font-family: "Lucida Sans Unicode", Tahoma, Arial, sans-serif;
+}
+blockquote {
+	margin: 0 20px;
+	padding: 0 20px;
+	border-left: 4px solid #80ABF4;
+	font-size: 0.9em;
+}
+code {
+	font-family: monospace;
+	color: #666;
+}
+form, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.small {
+	font-size: 0.9em;
+	color: #999;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 750px;
+	background-color: #FFF;
+	text-align: left;
+}
+#header {
+	padding: 30px 0 0 0;
+	background-color: #e7f2f5;
+	border-bottom: 10px solid #3883bb;
+}
+
+	#header h1 {
+		margin: 0;
+		font-size: 1.8em;
+	}
+	#header h1 a {
+		text-decoration: none;
+		color: #3883bb;
+	}
+
+
+#content {
+	float: left;
+	padding: 0 20px;
+	width: 520px;
+	voice-family: "\"}\""; 
+	voice-family: inherit;
+	width: 480px;
+} 
+html>body #content {
+	width: 480px;
+}
+* html #content {
+	overflow: hidden;
+}
+#sidebar {
+	float: left;
+	padding: 1.8em 20px 0 20px;
+	width: 230px;
+	font-size: 0.9em;
+	voice-family: "\"}\""; 
+	voice-family: inherit;
+	width: 190px;
+} 
+html>body #sidebar {
+	width: 190px;
+}
+
+#footer {
+	clear: both;
+	font-size: 0.9em;
+	text-align: right;
+}
+
+	#footer p {
+		margin: 0;
+		padding: 10px 0 20px 0;
+		background-color: #cee3e8;
+		border-top: 10px solid #0066CC;
+		font-size: 0.9em;
+		text-align: right;
+	}
+
+
+#sidebar h2 {
+	display: inline;
+	margin: 1.2em 0 0.6em 0;
+	padding: 0 10px 0 0;
+	background: url(FAQ/images/arrow.gif) no-repeat center right;
+	font-size: 1.1em;
+}
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#sidebar ul li {
+}
+#sidebar ul ul {
+	margin: 1.2em 0;
+	border-top: 1px solid #6AC4FF;
+	background-color: #F2F9FF;
+}
+#sidebar ul ul li {
+	padding: 0 0 0 10px;
+	border-bottom: 1px solid #6AC4FF;
+}
+#sidebar ul ul li a {
+	display: block;
+	margin: 0 0 0 -10px;
+	padding: 2px 10px 0 10px;
+	width: 190px;
+	voice-family: "\"}\""; 
+	voice-family: inherit;
+	width: 170px;
+} 
+html>body #sidebar ul ul li a {
+	width: 170px;
+}
+#sidebar ul ul li a:hover {
+	background-color: #FFF;
+}
+
+#sidebar ul ul ul {
+	margin: 0;
+	border: none;
+}
+#sidebar ul ul ul li {
+	margin: 0 0 0 -10px;
+	padding: 0 0 0 25px;
+	border-bottom: none;
+	border-top: 1px solid #6AC4FF;
+}
+#sidebar ul ul ul li a {
+	margin: 0 0 0 -25px;
+	padding: 2px 10px 0 25px;
+	width: 190px;
+	voice-family: "\"}\""; 
+	voice-family: inherit;
+	width: 155px;
+} 
+html>body #sidebar ul ul ul li a {
+	width: 155px;
+}
+
+.post {
+}
+.posttitle {
+	margin-bottom: 0;
+	width: 100%;
+	color: #FFF;
+	overflow: auto;
+}
+.posttitle a {
+	float: left;
+	padding: 0 10px;
+	background: #3883bb url(FAQ/images/posttitle.gif) no-repeat top right;
+}
+.posttitle a:link, .posttitle a:visited {
+	color: #FFF;	
+}
+.posttitle a:hover, .posttitle a:active {
+	float: left;
+	padding: 0 10px;
+	background: #3883bb url(FAQ/images/posttitle.gif) no-repeat top right;
+}
+.postmeta {
+	margin-top: 0;
+	padding-top: 1px;
+	background: url(FAQ/images/postmeta.gif) no-repeat top left;
+	font-size: 0.9em;
+	color: #999;
+}
+.postentry {
+}
+
+
+#commentlist {
+	margin: 1.2em 0;
+	padding: 0;
+	border-bottom: 1px solid #6AC4FF;
+	list-style-type: none;
+}
+#commentlist li {
+	border-top: 1px solid #6AC4FF;
+	padding: 1px 20px;
+	background-color: #FFF;
+}
+.alt {
+	background-color: #FAFAF0 !important;
+}
+.commenttitle {
+	margin-bottom: 0;
+	font-size: 1.1em;
+}
+.commentmeta {
+	margin-top: 0;
+	font-size: 0.9em;
+	color: #999;
+}
+#comment {
+	width: 98%;
+}
+
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+
+<div id="header">
+<h1><a href="leia me.htm">RPG Maker XP 1.02 Final - Leia Me </a></h1>
+</div>
+
+<div id="content">
+
+			<div class="post">
+	<br />
+	Depois de muito tempo de espera, lan&ccedil;amos a vers&atilde;o final da tradu&ccedil;&atilde;o do RPG Maker XP. Nesta vers&atilde;o voc&ecirc;s encontrar&atilde;o alguma pequenas novidades, como algumas modifica&ccedil;&otilde;es feitas no programa para melhorar a vida de quem est&aacute; fazendo seu jogo ^_^<br />
+	<br />
+	Tamb&eacute;m foram corrigidos alguns pequenos erros e adicionamos &agrave; tradu&ccedil;&atilde;o algumas melhorias que os usu&aacute;rios enviaram &agrave; mim em forma de sugest&otilde;es. Afinal, o programa &eacute; para voc&ecirc;s e voc&ecirc;s dizem o que ele deve ter =)<br />
+	<br />
+	Neste arquivo leia me voc&ecirc; encontrar&aacute; algumas informa&ccedil;&otilde;es importantes sobre a tradu&ccedil;&atilde;o do RPG Maker XP. &Eacute; importante e legal da sua parte ler isto aqui.<br />
+                <br />			  
+              <h2 class="posttitle"><a href="http://RPGMakerXP" >Tradu&ccedil;&atilde;o</a></h2>
+			
+				<p class="postmeta"> 
+				Quem? Onde? Como? o.o</p>
+			
+				<div class="postentry">
+										<p>Este &eacute; o grupo de tradu&ccedil;&atilde;o do RPG Maker XP. Quem &eacute; cada um e o que fez para tornar este projeto uma realidade.<br />
+										  <br />
+										  <strong><a href="mailto:cryptodeath@yahoo.com.br">Desert Eagle</a><br />
+										  </strong>Tradutor do programa, arquivo de ajuda, scripts, criador do FAQ, criador do leia me e praticamente tudo aqui tem o meu dedinho. xD<br />
+										  <br />
+										  <strong><a href="mailto:strayed_menace@hotmail.com">StrayED</a></strong><br />
+										  Tradutor do banco de dados.<strong><br />
+										  <br /> 
+										  </strong>
+										  <strong><a href="mailto:crono_lucas@hotmail.com">Crono</a></strong><br />
+										  Tradutor dos scripts e arquivo de ajuda.<br />
+										  <br />
+										  <strong><a href="mailto:leo_lacerda_@hotmail.com">Firewords</a></strong><br />
+										  Tradutor do arquivo de ajuda. <br />
+										  <br />
+										  <strong><a href="mailto:leo_lacerda_@hotmail.com">M&ocirc;</a></strong><br />
+Tradutor dos bal&otilde;es de ajuda (O que &eacute; isto?).<br />
+<br />
+                  </p>
+			  </div>
+			
+	</div>
+				
+				
+			<div class="post">
+	
+				<h2 class="posttitle"><a href="http://RPGMakerXP">O que tem de novo? </a></h2>
+			
+				<p class="postmeta"> 
+				Novidades da vers&atilde;o 1.02 </p>
+			
+				<div class="postentry">
+										<p>Uma lista de corre&ccedil;&otilde;es, novidades e outros detalhes sobre a vers&atilde;o 1.02. <br />
+										  <br />
+										  - Corrigidos alguns problemas durante a diferencia&ccedil;&atilde;o de letras mai&uacute;sculas e min&uacute;sculas na busca do editor de scripts;<br />
+										  - Corrigidos problemas que poderiam travar o programa logo ao ser iniciado;<br />
+										  - 
+										  Corrigidos erros durante a execu&ccedil;&atilde;o de uma condi&ccedil;&atilde;o em rela&ccedil;&atilde;o ao status do inimigo;<br />
+										  - Corrigido o da contagem de linhas do editor de scripts;<br />
+										  - Corrigidos erros na execu&ccedil;&atilde;o de uma anima&ccedil;&atilde;o de batalha; <br />
+										  - Corrigido o erro das condi&ccedil;&otilde;es de batalha; (Agradecimento aos usu&aacute;rios do f&oacute;rum Castelo RPG)<br />
+										  - 
+										  Corrigido o erro das &quot;cabe&ccedil;as cortadas&quot;;<br />
+										  - Algumas melhorias no programa que tornam sua execu&ccedil;&atilde;o mais r&aacute;pida em alguns computadores &quot;ruins&quot;;<br />
+										  - Inclus&atilde;o do m&eacute;todo Bitmap em draw_text; <br />
+										  - Corrigidos erros com alguns tipos de caracteres em algumas classes;<br />
+										  - Corrigidos alguns problemas com a inclus&atilde;o da WIN32API;<br />
+										  - Corrigidos problemas com a execu&ccedil;&atilde;o de BGMs na tela t&iacute;tulo;<br />
+										  - Corrigidos problemas ao exibir imagens maiores que 2048x2048 pixels;
+										  <br />
+										  - Arquivo de ajuda reformado e com novas se&ccedil;&otilde;es;<br />
+										  - Arquivo de ajuda quase completamente traduzido (faltam algumas se&ccedil;&otilde;es sobre RGSS);<br />
+										  - Bal&otilde;es de ajuda (O que &eacute; isto?) completamente traduzidos;<br />
+										  - Coment&aacute;rios nos c&oacute;digos RGSS completamente traduzidos;<br />
+										  - Um jogo de demonstra&ccedil;&atilde;o foi criado para os novatos terem uma no&ccedil;&atilde;o de como funcionam os jogos de RPG Maker XP;<br />
+										  - 
+										  Corrigido o problema com o status &quot;Morto&quot;; <br />
+										  - Corrigidos problemas durante a batalha; <br />
+
+				  </p>
+	                                    <h2 class="posttitle"><a href="http://RPGMakerXP">Hist&oacute;rico</a></h2>
+	                                    <p class="postmeta"> Datas e coisas in&uacute;teis relacionadas &agrave; tradu&ccedil;&atilde;o </p>
+	                                    <div class="postentry">
+                                          <p>Um pequeno hist&oacute;rico da tradu&ccedil;&atilde;o. O que aconteceu e quando.<br />
+                                              <br />
+    00/00/05 - Lan&ccedil;ada a vers&atilde;o 1.02, muitas novidades. <br />
+    05/08/05 - Lan&ccedil;ada a vers&atilde;o 1.01b, com algumas atualiza&ccedil;&otilde;es no editor de scripts. <br />
+    01/08/05 - Lan&ccedil;ada a vers&atilde;o final da tradu&ccedil;&atilde;o. <br />
+    16/09/04 - Lan&ccedil;ado o segundo beta da tradu&ccedil;&atilde;o, vers&atilde;o 1.01 do RPG Maker XP. 24/08/04 - Lan&ccedil;ado o primeiro beta da tradu&ccedil;&atilde;o, vers&atilde;o 1.00 do RPG Maker XP. <br />
+    24/08/04 - Iniciada a tradu&ccedil;&atilde;o do RPG Maker XP. </p>
+                  </div>
+	                                    <p>&nbsp;				                          </p>
+	                                    <h2 class="posttitle"><a href="http://RPGMakerXP">Atualizando seu jogo </a></h2>
+	                                    <p class="postmeta"> Como atualizar seu jogo </p>
+	                                    <div class="postentry">
+                                          <p>Este &eacute; um pequeno tutorial para atualizar seu jogo para a vers&atilde;o 1.02, corrigindo v&aacute;rios erros. <br />
+                                              <br />
+    1&ordm;) Copie os arquivos &quot;Game.exe&quot; e &quot;RGSS102J.dll&quot; da pasta System, localizada onde voc&ecirc; instalou seu RPG Maker XP.<br />
+    2&deg;) Cole esses arquivos na pasta principal do seu jogo. <br />
+    3&deg;) Fa&ccedil;a backup dos seus c&oacute;digos RGSS e status do seu jogo.
+    <br />
+    3&deg;) Copie os arquivos &quot;Scripts.rxdata&quot; e &quot;States.rxdata&quot; para a pasta Data, localizada na pasta principal do seu jogo.<br />
+    4&deg;) Reinstale/remodifique os c&oacute;digos RGSS que voc&ecirc; tinha instalado/modificado e recrie/modifique os status que voc&ecirc; havia criado/modificado para seu jogo. Esque&ccedil;a este passo caso voc&ecirc; n&atilde;o tenha feito nenhuma altera&ccedil;&atilde;o nos c&oacute;digos RGSS e nos Status </p>
+                  </div>
+	                                    <p>									      <br />
+                  </p>
+	                                    <div class="post">
+                                          <h2 class="posttitle"><a href="http://RPGMakerXP" >Agradecimentos</a></h2>
+                                          <p class="postmeta"> Gente que ajudou pra caralho =D </p>
+                                          <div class="postentry">
+                                            <p>Hm, aqui v&atilde;o alguns agradecimentos ao povo que ajudou bastante neste projeto.<br />
+                                              <br />
+                                              StrayED, Crono, Firewords e M&ocirc;: por terem aceitado a proposta de ajudar na tradu&ccedil;&atilde;o. <br />
+                                              Raven da RPG Menace: por ter hospedado a tradu&ccedil;&atilde;o, dado apoio<br />
+                                              Dudu_Galagher da Gold Wizard:                                               hospedou a tradu&ccedil;&atilde;o, deu apoio ^^<br />
+                                              Firewords: por ter me dado algumas sugest&otilde;es e toques.<br />
+                                              JKB: por ter testado o programa e me dado v&aacute;rias dicas e toques.<br />
+                                              salazar: reportou alguns bugs na tradução<br />
+                                              Cyrius: reportou alguns erros ^^'<br />
+                                              <br />
+                                              Fora o pessoal que esqueci e o resto da gurizada da Castelo RPG/RPG Menace/Gold Wizard.<br />
+                                              <br />
+                                              E principalmente &agrave; todos os caras que usam a tradu&ccedil;&atilde;o e me enviaram emails reportando erros, dando sugest&otilde;es e elogiando o trabalho. Muito obrigado pessoal! <br />
+                                              <br />
+                                            </p>
+                                          </div>
+                  </div>
+              </div>
+			
+	</div>
+				
+				
+			<div class="post">
+              <h2 class="posttitle"><a href="http://RPGMakerXP" >Contato e Suporte </a></h2>
+              <p class="postmeta"> Sugest&otilde;es, pux&otilde;es de orelha, d&uacute;vidas... </p>
+              <div class="postentry">
+                <p>Eis a parte importante do Leia Me: buscar o email, MSN, etc do autor caso tenha dado alguma merda ou voc&ecirc; quer dizer alguma coisa. xD<br />
+                  <br />
+                  H&aacute; v&aacute;rios jeitos de entrar em contato conosco, fica a crit&eacute;rio de voc&ecirc;s escolher:<br />
+                  <br />
+                  <strong>Email</strong><br />
+                  Problemas com o programa: cryptodeath@yahoo.com.br<br />
+                  Problemas/d&uacute;vidas com RGSS: 
+                  leo_lacerda_@hotmail.com<br />
+                  Ajuda em geral: mo-castelo@hotmail.com<br />
+                  <br />
+                  <strong>MSN</strong><br />
+                  Problemas com o programa: mortuorus@hotmail.com <br />
+Problemas/d&uacute;vidas com RGSS: leo_lacerda_@hotmail.com<br />
+Ajuda em geral: mo-castelo@hotmail.com</p>
+                <p>                  <strong>ICQ:</strong> 190634476<br />
+                  <strong>IRC:</strong> #rpgmaker na <a href="irc://irc.brasnet.org/rpgmaker">BrasNET</a> / #castelorpg na <a href="irc://irc.irchighway.net/castelorpg">IRCHighway</a><br />
+                  <strong>F&oacute;runs:</strong> <a href="http://www.castelorpg.net">Castelo RPG</a>, <a href="http://www.rpgmenace.com.br">RPG Menace</a>, <a href="http://www.rpgmakergold.com.br">Gold Wizard</a> <br />
+                  <br />
+                  D&uacute;vidas, sugest&otilde;es, cr&iacute;ticas, elogios, bla bla bla, tamb&eacute;m podem ser enviados para o f&oacute;rum da Castelo RPG, f&oacute;rum oficial de suporte &agrave; tradu&ccedil;&atilde;o do RPG Maker XP. <a href="http://www.castelorpg.net/forum">Visite o f&oacute;rum</a>. <br /> 
+                </p>
+              </div>
+    </div>
+	<div class="post"><div class="postentry">
+			  <p>&nbsp;</p>
+              </div>
+			
+	</div>
+				
+		
+  </div>
+
+<div id="sidebar"><ul><li>
+		<h2>RPG Maker XP </h2>
+		<ul>
+			<li><a href="http://www.gamingdev.net/castelorpg/index.php?area=1&p=product&action=showdetails&id=2">Informa&ccedil;&otilde;es</a></li>
+			<li><a href="http://www.gamingdev.net/castelorpg/index.php?showfile=1&fid=31&p=downloads&area=1&categ=5">Download</a></li>
+			<li><a href="http://www.castelorpg.net/index.php?p=showforums&area=1">Tutoriais</a></li>
+			<li><a href="http://www.castelorpg.net/forum">Dúvidas e Problemas</a></li>
+        </ul>
+	</li>
+	<li>
+		<h2>Procurar Ajuda</h2>
+		<form action="http://www.castelorpg.net/index.php" method="get" enctype="multipart/form-data" name="suche">
+    <input name="q" type="text"  value="" size="20" />
+    <input size="20" class="button" type="submit" value="Procurar" />
+	<input type="hidden" name="search_news" value="1" />
+	<input type="hidden" name="search_articles" value="1" />
+	<input type="hidden" name="search_downloads" value="1" />
+    <input type="hidden" name="search_links" value="1" />
+	<input type="hidden" name="search_faq" value="1" />
+	<input type="hidden" name="search_gallery" value="1" />
+	<input type="hidden" name="search_static" value="1" />
+	<p>
+    <input name="p" type="hidden" value="query" />
+    <input name="area" type="hidden" value="1" />
+	</p>
+</form>
+	</li>
+	
+		<li>
+		<h2>Scripts RGSS </h2>
+		<ul id="themeswitcher">
+	<li><a href="http://www.gamingdev.net/castelorpg/forum/index.php?showforum=22">Tutorial de RGSS</a></li>
+	<li><a href="http://www.gamingdev.net/castelorpg/forum/index.php?showforum=20">Ajuda em RGSS </a></li>
+	<li><a href="http://www.gamingdev.net/castelorpg/forum/index.php?showforum=21">Mais Scripts</a></li>
+</ul>	
+		</li>
+	
+		<li id="linkcat-1">
+		  <h2>Resources </h2>
+	<ul>
+<li><a href="http://www.gamingdev.net/castelorpg/forum/index.php?automodule=gallery&cmd=sc&cat=33">Animations</a></li>
+<li><a href="http://www.gamingdev.net/castelorpg/forum/index.php?automodule=gallery&cmd=sc&cat=35">Autotiles</a></li>
+<li><a href="http://www.gamingdev.net/castelorpg/forum/index.php?automodule=gallery&cmd=sc&cat=36">Battlebacks</a></li>
+<li><a href="http://www.gamingdev.net/castelorpg/forum/index.php?automodule=gallery&cmd=sc&cat=37">Battlers</a></li>
+<li><a href="http://www.gamingdev.net/castelorpg/forum/index.php?automodule=gallery&cmd=sc&cat=38">Characters</a></li>
+<li><a href="http://www.gamingdev.net/castelorpg/forum/index.php?automodule=gallery&cmd=sc&cat=39">Fogs</a></li>
+<li><a href="http://www.gamingdev.net/castelorpg/forum/index.php?automodule=gallery&cmd=sc&cat=40">Gameovers</a></li>
+<li><a href="http://www.gamingdev.net/castelorpg/forum/index.php?automodule=gallery&cmd=sc&cat=41">Icons</a></li>
+<li><a href="http://www.gamingdev.net/castelorpg/forum/index.php?automodule=gallery&cmd=sc&cat=43">Panoramas</a></li>
+<li><a href="http://www.gamingdev.net/castelorpg/forum/index.php?automodule=gallery&cmd=sc&cat=44">Pictures</a></li>
+<li><a href="http://www.gamingdev.net/castelorpg/forum/index.php?automodule=gallery&cmd=sc&cat=45">Tilesets</a></li>
+<li><a href="http://www.gamingdev.net/castelorpg/forum/index.php?automodule=gallery&cmd=sc&cat=46">Titles</a></li>
+<li><a href="http://www.gamingdev.net/castelorpg/forum/index.php?automodule=gallery&cmd=sc&cat=47">Transitions</a></li>
+<li><a href="http://www.gamingdev.net/castelorpg/forum/index.php?automodule=gallery&cmd=sc&cat=48">Windowskins</a></li>
+	</ul>
+</li>
+	
+	
+	<li>
+		<h2>Links</h2>
+		<ul>
+			<li><a href="http://www.castelorpg.net">Castelo RPG</a></li>
+			<li><a href="http://www.rpgmakergold.com.br">RPG Maker Gold </a></li>
+			<li><a href="http://www.rpgmenace.com.br">RPG Menace</a></li>
+			<li><a href="http://www.mysticalrpg.cjb.net">Mystical RPG</a></li>
+		</ul>
+	</li>
+</ul>
+
+</div>
+
+<div id="footer">
+<p>
+<span class="style2">RPG Maker XP / Traduzido por Desert Eagle<br />
+</span><a href="http://www.castelorpg.net">
+<span class="style3">Castelo RPG</span></a>
+·
+<a href="http://www.castelorpg.net/forum"><span class="style3">F&oacute;rum de Suporte</span></a></p>
+</div>
+
+</div>
+
+
+</body></html>
