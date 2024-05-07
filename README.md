@@ -1,3 +1,4 @@
+![Descrição da imagem](https://github.com/PauloHaganThorondor/Projeto-Web/blob/main/Pagina%20principal%20n.jpg?raw=true)
  
 
 O projeto apresentado veio do Grupo do curso de Web Design no CVTI, onde foi escolhido pelo grupo a criação de um site onde usuário pode saber sobre feiras e oficinas de artesanato em Nova Iguaçu. A seguir vem uma pequena explicação sobre a página principal do projeto.
