@@ -1,10 +1,10 @@
 O projeto apresentado veio do Grupo do curso de Web Design no CVTI, onde foi escolhido pelo grupo a criação de um site onde usuário pode saber sobre feiras e oficinas de artesanato em Nova Iguaçu. A seguir vem uma pequena explicação sobre a página principal do projeto.
 
-!(https://github.com/PauloHaganThorondor/Projeto-Web/blob/main/Pagina%20principal%20n.jpg?raw=true)
+![Descrição da imagem](https://github.com/PauloHaganThorondor/Projeto-Web/blob/main/Pagina%20principal%20n.jpg?raw=true)
  
 A imagem acima demonstra o início da página principal do projeto, onde além da imagem do Site vem também barra de navegação, carrossel e um botão onde o site fica em modo escuro. Como pode ser visto na imagem a baixo.
 
-!(https://github.com/PauloHaganThorondor/Projeto-Web/blob/main/Pagina%20principal%20e.jpg?raw=true))
+![Descrição da imagem](https://github.com/PauloHaganThorondor/Projeto-Web/blob/main/Pagina%20principal%20e.jpg?raw=true)
 
 O corpo do página vem com fotos que levam a outras página do site e cards com links que levam a sites de outras plataformas. Como pode ser visto na imagem abaixo que para ter uma visualização melhor do corpo foi usado um zoom.
 
